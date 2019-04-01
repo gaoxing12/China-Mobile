@@ -1,0 +1,158 @@
+html{
+	font-size: 62.5%;
+}
+.container{
+	width: 100%;
+	max-width: 750px;
+	min-width: 405px;
+	background: #efefef;
+	height: 3000px;
+	margin: 0 auto;
+}
+.header{
+	height: 4rem;
+	line-height: 4rem;
+	background: #118cd2;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0 1rem;
+	/*font-size: 5rem;*/
+}
+.header>p>img{
+	width: 100%;
+}
+.header>p:nth-child(1){
+	width: 30%;
+}
+.header>p:nth-child(2){
+	width: 5%;
+}
+.banner{
+	margin-top: 0.5rem;
+}
+.banner>.banner_lunbo{
+	position: relative;
+}
+.banner>.banner_lunbo>img{
+	width: 100%;
+}
+/*指示器*/
+.indicator{
+	display: flex;
+	position: absolute;
+	bottom: 0.5rem;
+	left: 50%;
+	width: 19.2%;
+	height: 1rem;
+	line-height: 1rem;
+	transform: translate(-50%);
+	background: rgba(255,255,255,0.5);
+	border-radius: 30px;
+	box-sizing: border-box;
+	padding-top: 0.25rem;
+}
+.indicator>li{
+	width: 8%;
+	height: 0.55rem;
+	border-radius: 50%;
+	background: #55406f;
+	margin-left: 0.52rem;
+}
+.indicator>li.olActive{
+	background-color: #FF0000;
+}
+/*业务办理的nav部分*/
+.business{
+	padding: 0px 30px;
+	box-sizing: border-box;
+	background: #fff;	
+}
+.business_nav{	
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.business_nav>li{
+	text-align: center;	
+	width: 20%;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	margin-top: 2rem;
+}
+.business_nav>li>a>img{
+	width: 65%;
+}
+.business_nav>li>a>p{
+	font-size: 1.4rem;
+}
+/*通告*/
+.tongZhi{
+	margin: 0px 20px;	
+	display: flex;
+	/*background: yellow;*/
+	height: 3.5rem;
+	line-height: 3.5rem;
+	margin-top: 1.5rem;
+	border-top:1px solid #EFEFEF ;
+}
+.tongZhi>div:nth-child(1){
+	width: 80%;
+	font-size: 1.5rem;
+}
+.tongZhi>div:nth-child(2){
+	width: 20%;
+	text-align: right;
+	font-size: 1.5rem;
+	color: #178ed2;
+}
+/*热门推荐*/
+.hot{
+	margin-top: 1rem;
+	background: #fff;
+}
+.hot>p{
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.5rem;
+	box-sizing: border-box;
+	padding-left: 2rem;
+}
+.hot>p>span{
+	padding-left: 0.5rem;
+}
+.hot_ul{
+	display: flex;	
+}
+.hot_ul>li{
+	text-align: center;
+	flex: 1;
+	border-top: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	padding-top: 1rem;
+}
+.hot_ul>li>img{
+	width: 100%;
+}
+.hot_ul>li>p:nth-child(1){
+	font-size: 1.3rem;
+}
+.hot_ul>li>p:nth-child(2){
+	font-size: 1rem;
+	color: #666666;
+}
+.hot_ul>li:nth-last-child(-n+1){
+	border-right: none;
+}
+/*流量*/
+.fenTwo{
+	display: flex;
+	border-bottom: 1px solid #DFDFDF;
+}
+.fenTwo>p{
+	flex: 1;
+}
+.hot_ul>li>.fenTwo:nth-last-child(-n+1){
+	border: none;
+}
+
