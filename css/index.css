@@ -6,7 +6,7 @@ html{
 	max-width: 750px;
 	min-width: 405px;
 	background: #efefef;
-	height: 3000px;
+	/*height: 10000px;*/
 	margin: 0 auto;
 }
 .header{
@@ -152,7 +152,121 @@ html{
 .fenTwo>p{
 	flex: 1;
 }
+.fenTwo img{
+	width: 98%;
+}
 .hot_ul>li>.fenTwo:nth-last-child(-n+1){
 	border: none;
 }
-
+.fenTwo>p:nth-child(1){
+	/*background: red;*/
+	box-sizing: border-box;
+	white-space:nowrap;
+	/*padding-left:5rem;*/
+}
+.fenTwo>p:nth-child(1)>span{
+	display: block;
+	text-align: left;
+	font-size: 1.3rem;
+	/*background: yellow;*/
+	box-sizing: border-box;
+	padding-left:1rem;
+	
+}
+.fenTwo>p:nth-child(1)>span:nth-child(2),.fenTwo>p:nth-child(1)>span:nth-child(3){
+	font-size: 1rem;
+	color: #666666;
+}
+.hot_ul_liuliang>p{
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 1.5rem;
+}
+/*尾部*/
+.footer{
+	text-align: center;
+	padding-bottom: 5rem;
+}
+/*加载更多*/
+.load_more{
+	/*background: red;*/
+	padding: 0.7rem 0;
+}
+.load_more>a{
+	color: #0084cf;
+	font-size: 1.3rem;	
+}
+/*登录及回到顶部*/
+.back_top{
+	background: #fff;
+	display: flex;
+	padding: 1rem 0;
+	justify-content: space-between;
+}
+.back_top>li{
+	/*background: greenyellow;*/
+	width: 25%;
+	font-size: 1.3rem;
+}
+.back_top>li>a>i{
+	font-size: 1.3rem;
+}
+.back_top>li:nth-child(1){
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 1.6rem;
+}
+/*版本*/
+.banben{
+	width: 70%;
+	/*background: pink;*/
+	margin: 0 auto;
+	display: flex;
+	padding-top: 2.5rem;
+}
+.banben>li{
+	flex: 1;
+}
+.banben>li img{
+	width: 50%;
+}
+.banben>li>a>.banben_icon{
+	padding-bottom: 1rem;
+	position: relative;
+}
+.banben>li>a>.banben_icon>span{
+	position: absolute;
+	top: 2px;
+	right: 21px;
+	font-size: 2rem;
+	color: #ff3333;
+}
+.banben>li>a>p{
+	font-size: 1.1rem;
+}
+/*尾部的地址部分*/
+.index_address{
+	font-size: 1.2rem;
+	padding-top: 2rem;
+	padding-top: 3rem;
+	color: #4e4e4e;
+}
+.hot_ul>li>.fenTwo>p>.phone_pice{
+	color: #e30077;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 1.3rem;
+}
+.hot_ul>li>.fenTwo>p>.phone_pice>small{
+	font-size: 0.5rem;
+}
+.hot_ul>li>.fenTwo>p>.redKuang{
+	text-align: center;
+	width: 80%;
+	color: #FF3333;
+	border: 1px solid #FF3333;
+	padding-left: 0;
+	margin-left: 1.2rem;
+	font-weight: bold;
+	font-size: 1rem;
+}
