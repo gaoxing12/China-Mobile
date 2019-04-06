@@ -1,0 +1,114 @@
+
+.container{
+	width: 100%;
+	max-width: 750px;
+	min-width: 405px;
+	background: #f1f1f1;
+	/*height: 10000px;*/
+	margin: 0 auto;
+}
+.container img{
+	width: 100%;
+}
+.packageBox{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*box-sizing: border-box;*/
+	padding: 0 1.5rem;
+}
+.packageBox>li{
+	width: 32.3%;
+	background: #fff;
+	margin-top: 2rem;
+	position: relative;
+}
+/*选中时的状态*/
+.packageBox>li>.gou{
+	width: 20%;
+	position: absolute;
+	right: 1px;
+	bottom: 3px;
+}
+.packageBox>li.active_package{
+	border: 0.02rem solid #0184CC;
+	box-shadow: 0 0.3rem 0 #d8d8d8;
+}
+.packageBox>li img{
+	width: 34%;
+}
+.packageBox>li>p{
+	height: 3.8rem;
+	line-height: 3.8rem;
+	background: #0185D0;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bolder;
+	text-align: center;
+}
+.packageBox>li>p>span{
+	font-size: 1.7rem;
+}
+.packageBox>li>ul{
+	display: flex;
+	margin-top: 1rem;
+	/*background: pink;*/
+}
+.packageBox>li>ul>li{
+	flex: 1;
+	text-align: center;
+}
+.packageBox>li>ul>li:nth-child(1){
+	border-right: 1px solid #e8e8e8;
+}
+.packageBox>li>ul>li>p:nth-child(2){
+	font-size: 2rem;
+	color: #555;
+	padding-top: 0.7rem;
+}
+.packageBox>li>ul>li>p:nth-child(3){
+	font-size: 1.3rem;
+	color: #8e8e8e;
+	padding-bottom: 0.7rem;
+}
+/*资费标准*/
+.charges{
+	margin-top: 4rem;
+	padding-right: 2rem;
+	box-sizing: border-box;
+}
+.charges_title{
+	border-bottom: 0.1rem solid #e7e7e7;
+	box-sizing: border-box;
+	padding-left: 1rem;
+	padding-bottom: 0.5rem;
+}
+.charges_title>span{
+	font-size: 1.6rem;
+	border-bottom: 0.3rem solid #00a9ff;
+	color: #00a9ff;
+	padding: 0 1rem;
+	padding-bottom: 0.3rem;
+}
+.charges_text{
+	box-sizing: border-box;
+	padding-left: 2rem;
+	font-size: 1.3rem;
+	color: #666666;
+	line-height: 2rem;
+	padding-top: 2rem;
+	margin-bottom: 4rem;
+}
+/*立即办理*/
+#immediately{
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background: rgba(29,171,243,0.8);
+	color: #FFF;
+	font-size: 1.6rem;
+	height: 4rem;
+	max-width: 750px;
+	min-width: 405px;
+	margin: 0 auto;
+}
