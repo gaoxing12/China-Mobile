@@ -1,0 +1,161 @@
+.container{
+	width: 100%;
+	max-width: 750px;
+	min-width: 405px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.container img{
+	width: 100%;
+}
+.startFees{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	background: #00a3ff;
+	display: flex;
+	text-align: center;
+	font-size: 1.3rem;
+	border-bottom: 1px solid #DFDFDF;
+}
+.startFees>div:nth-child(2){
+	width: 80%;
+	
+}
+.startFees>div:nth-child(2)>a{
+	color: #fff;
+	/*font-size: 1rem;*/
+}
+.startFees>div:nth-child(1),.startFees>div:nth-child(3){
+	width: 10%;
+	/*background:yellow;*/
+	text-align: left;	
+}
+.startFees>div:nth-child(1)>a,.startFees>div:nth-child(3)>a{
+	font-size: 2rem;
+	color: #fff;	
+}
+.startFees>div:nth-child(3){
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 12px;
+}
+/*宽带续费*/
+.newKuanDai{
+	display: flex;
+	background: #53cac3;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 90%;
+	border-radius:0.6rem;
+	border: 1px solid #53cac3;
+	padding-right: 0.01rem ;	
+}
+.newKuanDai>li{
+	flex: 1;
+	height: 4rem;
+	line-height:4rem ;
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-align: center;
+	border-radius:0.6rem;	
+}
+.newKuanDai>li:nth-child(1){
+	color: #fff;
+}
+.newKuanDai>li:nth-child(2){
+	background: #fff;
+	color: #53cac3;
+}
+/*不同的流量卡的惊喜价*/
+.nowBanLi{
+	margin-top: 3rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #e5e4e4;
+}
+.nowBanLiUl{
+	border-bottom: 4px solid #efefef;
+}
+.nowBanLiUl>li{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	border-bottom: 1px solid #e5e4e4;
+	display: flex;
+}
+.nowBanLiUl>li:nth-child(3){
+	border: none;
+}
+.nowBanLiUl>li>div:nth-child(1){
+	width: 30%;
+}
+.nowBanLiUl>li>div:nth-child(2){
+	width: 45%;
+	box-sizing: border-box;
+	font-size: 1.3rem;
+	padding: 0 0.5rem;
+	padding-top: 2.5rem;
+}
+.surprised{
+	display: flex;
+	padding-top: 1rem;	
+}
+.surprised>a{
+	color: #FF0000;
+	border: 1px solid #FF0000;
+	border-radius: 0.3rem;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+}
+.surprised>p>span{
+	color: #FF0000;
+}
+.nowBanLiUl>li>div:nth-child(3){
+	width: 25%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 3.5rem;
+}
+.nowBanLiUl>li>div:nth-child(3)>input{
+	width: 90%;
+	height: 3rem;
+	color: #fff;
+	background: #3a9f99;
+	border-radius: 0.5rem;
+	font-size:1.5rem ;
+	font-weight: bold;
+}
+.serviceTitle{
+	box-sizing: border-box;
+	padding-left: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+.serviceTitle>p{
+	font-size: 2rem;
+	font-weight: bolder;
+	color: #4c4c4c;
+	border-left: 0.6rem solid #3A9F99;
+	box-sizing: border-box;
+	padding-left: 1.5rem;
+}
+.service_project{
+	display: flex;
+	border-bottom: 1px solid #e5e4e4;
+	border-top: 1px solid #e5e4e4;
+	flex-wrap: wrap;
+}
+.service_project>li{
+	width: 33.3%;
+	text-align: center;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+}
+.service_project>li>a>img{
+	width: 50%;
+}
+.service_project>li>a>p{
+	font-size: 1.4rem;
+	padding-top:1.5rem ;
+}
