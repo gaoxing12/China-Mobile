@@ -1,0 +1,248 @@
+body{
+	background: #f2f6f9;
+}
+.startFees{
+	width: 100%;
+	height: 2.3rem;
+	line-height: 2.3rem;
+	background: #EFEFEF;
+	display: flex;
+	text-align: center;
+	font-size: 1rem;
+	border-bottom: 1px solid #DFDFDF;
+}
+.startFees>div:nth-child(2){
+	width: 80%;
+	/*background:pink;*/
+}
+.startFees>div:nth-child(1),.startFees>div:nth-child(3){
+	width: 10%;
+	/*background:yellow;*/
+	text-align: left;	
+}
+.startFees>div:nth-child(1)>a,.startFees>div:nth-child(3)>a{
+	font-size: 2rem;
+	color: #343434;	
+}
+.startFees>div:nth-child(3){
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 12px;
+}
+#feesImg{
+	width: 100%;
+	height: 2.5rem;
+}
+/*选择充值方式*/
+.top_up_way{
+	background-color: #fff;
+	display: flex;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: #676767;
+	font-size: 0.8rem;
+}
+.top_up_way>li{
+	flex: 1;
+	text-align: center;
+	border-bottom: 1px solid #e3e3e3;
+}
+.top_up_way>li.activeWay{
+	color: #0285cf;
+	border-bottom: 2px solid #0285cf;
+}
+/*输入号码及选择充值数额*/
+.inputNumber{
+	background-color: #fff;
+	box-sizing: border-box;
+	padding:0px 1.7rem;
+	border-bottom: 2px solid #e3e3e3;
+}
+/*输入号码*/
+.inpNumBox{
+	display: flex;
+	border-bottom: 1px solid #dfdfdf;
+}
+.inpNumBox>input{
+	width: 85%;
+	/*background: red;*/
+	height: 8rem;
+	font-size: 2.2rem;
+}
+.inpNumBox>input::-webkit-input-placeholder{
+	color: #c5c5c5;
+}
+.inpNumBox>div.numberBook{
+	width: 15%;
+	text-align: center;
+	/*background: yellow;*/
+	box-sizing: border-box;
+	padding-top: 2.4rem;
+}
+.inpNumBox>div.numberBook>span{
+	font-size: 2.1rem;
+	color: #108ee9;
+}
+.inpNumBox>div.numberBook>p{
+	color: #a4a4a4;
+	font-size: 1.2rem;
+	padding-top: 0.5rem;
+	box-sizing: border-box;
+}
+/*选择金额*/
+.chooseMoney{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.chooseMoney>li{
+	width: 30%;
+	padding-top: 1.5rem;
+	/*background: pink;*/
+}
+.chooseMoney>li>input{
+	width: 100%;
+	height: 4rem;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	border: 1px solid #0185d0;
+	
+}
+.chooseMoney>li>input[type="button"]{
+	font-size: 1.8rem;
+	color: #0185d0;
+	cursor: pointer;
+}
+.chooseMoney>li>input[type="text"]{
+	text-align: center;
+	font-size: 1rem;
+}
+/*支付金额*/
+.payMoney{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.7rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	color: #343434;
+}
+.payMoney>p{
+	flex: 1;
+	/*background: pink;*/
+}
+.payMoney>p>span{
+	font-weight: bolder;
+}
+.payMoney>p>span>small{
+	font-size: 1rem;
+}
+.payMoney>p:nth-child(2){
+	text-align: right;
+}
+.payMoney>p:nth-child(2)>span{
+	color: #ed2788;
+}
+/*获取焦点的时候,让占位符消失*/
+input:focus::-webkit-input-placeholder {
+color: transparent;
+}
+/*优惠*/
+.discounts{
+	background: #fff;
+	border-bottom: 2px solid #e3e3e3;
+}
+.discountsBox{
+	display: flex;
+	border-bottom: 1px solid #e3e3e3;
+	box-sizing: border-box;
+	padding: 0 1rem;
+}
+.discountsBox>li{
+	height: 4rem;
+	line-height: 4rem;
+	flex: 1;
+	color: #ccc;
+	font-size: 1rem;
+}
+.discountsBox>li span{
+	font-size: 1.2rem;
+}
+.discountsBox>li a{
+	color: #0185d0;
+}
+.discountsBox>li:nth-child(2){
+	text-align: right;
+}
+/*立即充值*/
+.nowTopUp{
+	background: #fff;
+	padding: 0 1rem;
+	box-sizing: border-box;
+}
+.nowTopUp>p{
+	color: #FF0000;
+	height: 3rem;
+	line-height: 3rem;
+}
+.nowTopUp>input{
+	width: 100%;
+	height: 4rem;
+	font-size: 2rem;
+	color: #fff;
+	background-color: #0184cc;
+	border-radius: 0.2rem;
+}
+/*温馨提示*/
+.warm_prompt{
+	display: flex;
+}
+.warm_prompt>li{
+	flex: 1;
+	color: #ccc;
+	font-size: 0.9rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.warm_prompt>li:nth-child(2){
+	text-align: right;
+}
+.warm_prompt>li:nth-child(2)>a{
+	color: #0185d0;
+}
+/*脚部*/
+.footerTwo{
+	background-color: #f2f6f9;	
+}
+.footerTwo a{
+	color: #343434;
+}
+.footerTwo>ul{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+}
+.footerTwo>ul>li{
+	width: 20%;
+	box-sizing: border-box;
+	padding: 0 0.7rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.footerTwo>ul>li>a{
+	color:#343434;
+}
+.model{
+	display: flex;
+	padding-top: 1rem;
+}
+.model>p{
+	flex: 1;
+	text-align: center;
+}
+.model>p:nth-child(1)>a{
+	color: #0184cc;
+}
+.footerTwo>p{
+	text-align: center;
+	padding-bottom: 1rem;
+}
