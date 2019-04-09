@@ -1,0 +1,191 @@
+*{
+	font-family: "黑体";
+}
+.container{
+	width: 100%;
+	max-width: 750px;
+	min-width: 405px;
+	background:url(../imgs/bg.jpg);
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+.container img{
+	width: 100%;
+}
+.as{
+	background: url(../imgs/cloud.png) no-repeat;
+	background-size: 100%;
+	/*height: 13.7rem;*/
+	padding-bottom: 2rem;
+}
+.as>p{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+	color: #318aff;
+	padding-top: 1.5rem;
+}
+.as>p>span{
+	color: #ff0707;
+}
+.wayBox{
+	width: 90%;
+	margin: 0 auto;
+	background: #2686ff;
+	border-radius: 3rem;
+	padding: 1rem 0;
+}
+.wayText{
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 2rem;
+}
+.wayText>p{
+	width: 60%;
+}
+.wayText>i{
+	/*background: #fff;*/
+	border-bottom: 1px solid #fff;
+	/*padding-top: -2rem;*/
+	height: 1rem;
+	width: 40%;
+	margin: 0 1rem;
+}
+.alertpay{
+	box-sizing: border-box;
+	padding: 0 2rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+.alertpay>img{
+	width: 85%;
+}
+.alertpayText{
+	background: #aad5ff;
+	border-radius: 2rem;
+	box-sizing: border-box;
+	padding: 0 1rem;
+}
+.alertpayText>p{
+	font-size: 1.1rem;
+	color: #2686FF;
+	text-align: center;
+	padding-top: 1rem;
+}
+.alertpayWhite{
+	background: #fff;
+	border-radius: 2rem;
+	box-sizing: border-box;
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+}
+.alertpayWhite>ul>li{
+	display: flex;
+	box-sizing: border-box;
+	border-radius: 2rem;
+	border: 2px solid #2a88FF;
+	margin-bottom: 1.7rem;
+}
+.alertpayWhite>ul>li>div:nth-child(1){
+	width: 38%;
+	color: #fff;
+	background: #2a88FF;
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	border-top-left-radius:2rem;
+	border-bottom-left-radius:2rem;
+	/*border-radius: 2rem;*/
+}
+.alertpayWhite>ul>li>div:nth-child(1) span{
+	font-size: 2rem;
+}
+.alertpayWhite>ul>li>div:nth-child(2){
+	width: 62%;
+	color: #2a88FF;
+	/*background:pink;*/
+	box-sizing: border-box;
+	padding-left: 1rem;
+	text-align: center;
+	border-top-right-radius:2rem;
+	border-bottom-right-radius:2rem;
+	font-size: 1.2rem;
+}
+.alertpayWhite>ul>li>div.right{
+	display: flex;
+	align-self: center;
+}
+.alertpayWhite>ul>li>div.right>div>p.impor{
+	border-bottom: 1px dashed #2a88FF;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+/*流量说明部分*/
+.explainBox{
+	/*background: yellow;*/
+	box-sizing: border-box;
+	padding: 0 1rem;
+	padding-bottom: 0.5rem;
+}
+.explainBox>.explain{
+	border-bottom: 1px dashed #2A88FF;
+	text-align: left;
+	margin-top: 0.5rem;
+}
+.explain>p:nth-child(1){
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: #2A88FF;
+	position: relative;
+}
+.explain>p:nth-child(1)>i{
+	position: absolute;
+	left: -1.5rem;
+	top: 0.6rem;
+	font-size: 1rem;
+	
+}
+.explain>p:nth-child(2){
+	font-size: 1.2rem;
+	color: #3a3a3a;
+	margin-top: 0.3rem;
+	padding-bottom: 0.5rem;
+}
+.explain>p:nth-child(2)>a{
+	color:#2A88FF;
+	text-decoration: underline;
+}
+.explain>p:nth-child(2).teshu{
+	color: #FF0707;
+	font-weight: bold;
+}
+/*立即办理*/
+.restBanLi>input{
+	width: 50%;
+	height: 3.5rem;
+	background: #ffff00;
+	color: #FF0707;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-radius: 2rem;
+	margin: 2rem 0;
+}
+/*活动规则*/
+.activity_rules>.alertpayText{
+	text-align: left;
+	padding: 0.3rem 1.5rem;
+	padding-bottom: 1rem;
+	box-sizing: border-box;
+}
+.activity_rules>.alertpayText>.alertpayWhite{
+	box-sizing: border-box;
+	padding: 1.3rem 1.5rem;
+	font-size: 1.3rem;
+	color: #1463c8;
+}
+.activity_rules>.alertpayText>.alertpayWhite>p{
+	margin-bottom: 0.5rem;
+	line-height: 2rem;
+}

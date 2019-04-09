@@ -1,0 +1,127 @@
+.container{
+	width: 100%;
+	max-width: 750px;
+	min-width: 405px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.container>.imgs{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.startFees{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	background: #00a3ff;
+	display: flex;
+	text-align: center;
+	font-size: 1.3rem;
+	border-bottom: 1px solid #DFDFDF;
+}
+.startFees>div:nth-child(2){
+	width: 80%;
+	
+}
+.startFees>div:nth-child(2)>a{
+	color: #fff;
+	/*font-size: 1rem;*/
+}
+.startFees>div:nth-child(1),.startFees>div:nth-child(3){
+	width: 10%;
+	/*background:yellow;*/
+	text-align: left;	
+}
+.startFees>div:nth-child(1)>a,.startFees>div:nth-child(3)>a{
+	font-size: 2rem;
+	color: #fff;	
+}
+.startFees>div:nth-child(3){
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 12px;
+}
+/*立即兑换*/
+.jiFenhu{
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 1rem;
+	margin-bottom: 2rem;
+}
+.jiFenhu>li:nth-child(1){
+	width: 28%;
+	/*background: pink;*/
+	text-align: center;
+	border: 1px solid #e7e7e7;
+	background: url(../imgs/jdgb1.jpg);
+	background-size: 100% 100%;
+}
+.jiFenhu>li:nth-child(1)>img{
+	width: 100%;
+}
+.jiFenhu>li:nth-child(2){
+	width: 72%;
+	/*background: red;*/
+	box-sizing: border-box;
+	padding: 0.5rem 1rem;
+}
+.jiFenhu>li:nth-child(2)>p:nth-child(1){
+	font-size: 1.2rem;	
+}
+.jiFenhu>li:nth-child(2)>p:nth-child(1)>span{
+	color: #e21277;	
+}
+.jiFenhu>li:nth-child(2)>p:nth-child(2){
+	margin-top: 3rem;
+	text-align: right;
+	/*background: yellow;*/	
+}
+.jiFenhu>li:nth-child(2)>p:nth-child(2)>input{
+	font-size: 1.2rem;
+	color: #fff;
+	background: #55a7dc;
+	padding: 0.4rem 1rem;
+	border-radius: 0.3rem;
+}
+.huaRun>li:nth-child(1){
+	background: url(../imgs/jdgb3.jpg);
+	background-size:100% 100% ;
+}
+section.footer_inte{
+	display: block;
+	/*background: red;*/
+	padding-top: 3rem;
+}
+.footer_inte>.button{
+	display: flex;
+	margin-top: 3rem;
+	background: #3c3c3c;
+	padding-top: 0.5rem;
+}
+.footer_inte>.button>p{
+	flex: 1;
+	box-sizing: border-box;
+}
+.footer_inte>.button>p:nth-child(1){
+	text-align: right;
+	padding-right: 1.5rem;
+	/*background: gold;*/
+}
+.footer_inte>.button>p:nth-child(2){
+	padding-left: 1.5rem;
+	/*background: palevioletred;*/
+}
+.footer_inte>.button>p>input{
+	width: 40%;
+	background: #fff;
+	height: 2.5rem;
+	border-radius: 0.08rem;
+	font-size: 1rem;
+}
+.footerP{
+	background: #3c3c3c;
+	text-align: center;
+	color: #ddd;
+	font-size: 1rem;
+	padding: 1.5rem 0;
+}
